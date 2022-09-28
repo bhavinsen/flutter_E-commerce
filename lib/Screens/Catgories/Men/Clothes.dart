@@ -5,9 +5,6 @@ import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:get/get.dart';
 import 'package:shopping_app/Controller/cart_controller.dart';
 import 'package:shopping_app/DataBase/Model/products_model.dart';
-import 'package:shopping_app/Screens/CartScreen/Cart.dart';
-import 'package:shopping_app/Utils/Constant.dart';
-
 class Clothes extends StatefulWidget {
   const Clothes({Key key}) : super(key: key);
 
@@ -79,7 +76,7 @@ class _ClothesState extends State<Clothes> {
                   backgroundColor: Colors.black
               ),
               onPressed: () {
-                Get.to(() => Cart());
+              //  Get.to(() => Cart());
               },
               child: Text("Go to cart",
                   style: TextStyle(

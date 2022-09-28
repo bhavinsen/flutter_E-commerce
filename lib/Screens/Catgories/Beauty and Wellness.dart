@@ -5,7 +5,7 @@ import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:get/get.dart';
 import 'package:shopping_app/Controller/cart_controller.dart';
 import 'package:shopping_app/DataBase/Model/products_model.dart';
-import 'package:shopping_app/Screens/CartScreen/Cart.dart';
+// import 'package:shopping_app/Screens/CartScreen/Cart.dart';
 
 class Beauty extends StatefulWidget {
   const Beauty({Key key}) : super(key: key);
@@ -79,7 +79,7 @@ class _BeautyState extends State<Beauty> {
           ElevatedButton(
               style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
               onPressed: () {
-                Get.to(() => Cart());
+                // Get.to(() => Cart());
               },
               child: Text("Go to cart",
                   style: TextStyle(

@@ -8,13 +8,13 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shopping_app/DataBase/DB_Helper/databse_Helper.dart';
 import 'package:shopping_app/DataBase/Model/user_Model.dart';
-import 'package:shopping_app/Screens/CartScreen/Cart.dart';
+// import 'package:shopping_app/Screens/CartScreen/Cart.dart';
 import 'package:shopping_app/Screens/BottomBar/Categories.dart';
 import 'package:shopping_app/Screens/BottomBar/Profile.dart';
-import 'package:shopping_app/Screens/DrawerScreens/MyOrders.dart';
-import 'package:shopping_app/Screens/DrawerScreens/MyRewards.dart';
-import 'package:shopping_app/Screens/DrawerScreens/Notification.dart';
-import 'package:shopping_app/Screens/DrawerScreens/PrivacyPolicy.dart';
+// import 'package:shopping_app/Screens/DrawerScreens/MyOrders.dart';
+// import 'package:shopping_app/Screens/DrawerScreens/MyRewards.dart';
+// import 'package:shopping_app/Screens/DrawerScreens/Notification.dart';
+// import 'package:shopping_app/Screens/DrawerScreens/PrivacyPolicy.dart';
 import 'package:shopping_app/Screens/Login/LoginScreen.dart';
 
 class HomePage extends StatefulWidget {
@@ -206,8 +206,8 @@ class _HomePageState extends State<HomePage> {
               style:
                   ElevatedButton.styleFrom(backgroundColor: Colors.white, elevation: 0),
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Cart()));
+                // Navigator.push(
+                    // context, MaterialPageRoute(builder: (context) => Cart()));
               },
               child: SvgPicture.asset('assets/Images/shopping bag.svg')),
         ],
@@ -233,8 +233,8 @@ class _HomePageState extends State<HomePage> {
             ),
             ListTile(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyOrder()));
+                // Navigator.push(context,
+                    // MaterialPageRoute(builder: (context) => MyOrder()));
               },
               leading: Image.asset('assets/Images/icons8-purchase-order-60.png',
                   height: 30, width: 30, color: Colors.white),
@@ -248,8 +248,8 @@ class _HomePageState extends State<HomePage> {
             ),
             ListTile(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyRewards()));
+                // Navigator.push(context,
+                    // MaterialPageRoute(builder: (context) => /MyRewards()));
               },
               leading: Image.asset(
                 'assets/Images/icons8-gift-60.png',
@@ -267,8 +267,8 @@ class _HomePageState extends State<HomePage> {
             ),
             ListTile(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Notificationsss()));
+                // Navigator.push(context,
+                    // MaterialPageRoute(builder: (context) => Notificationsss()));
               },
               leading: Image.asset(
                 'assets/Images/icons8-notification-50.png',
@@ -314,8 +314,8 @@ class _HomePageState extends State<HomePage> {
             // ),
             ListTile(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => PrivacyPolicy()));
+                // Navigator.push(context,
+                    // MaterialPageRoute(builder: (context) => PrivacyPolicy()));
               },
               leading: Icon(
                 Icons.privacy_tip,
@@ -377,8 +377,8 @@ class _HomePageState extends State<HomePage> {
               tooltip: 'Cart',
               enableFeedback: false,
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Cart()));
+                // Navigator.push(
+                    // context, MaterialPageRoute(builder: (context) => Cart()));
               },
               icon: Icon(
                 Icons.shopping_cart,
